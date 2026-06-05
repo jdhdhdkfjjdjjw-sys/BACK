@@ -1,303 +1,437 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voitures électriques, énergie solaire et propre | Tesla </title>
-  <link rel="stylesheet" href="./css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workflow Landing Page</title>
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-<header class="navbar">
-  <div class="logo">TESLA</div>
-  <button class="menu-btn">Menu</button>
+<header>
+<div class="container">
+<nav>
+
+<div class="logo">
+  <img src="./image/LOGO_BT.png" alt="Workflow Logo">
+
+<div class="separator"></div>
+
+  <ul class="nav-links">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Produit</a></li>
+    <li><a href="#">Tarifs</a></li>
+    <li><a href="#">FAQ</a></li>
+  </ul>
+</div>
+<div class="nav-right">
+  <div class="language-selector">
+
+    <button class="lang-btn">
+        <i class="fa-solid fa-globe"></i>
+        FR
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+
+    <div class="lang-menu">
+        <a href="#">FR</a>
+        <a href="#">EN</a>
+    </div>
+  </div>
+  <div class="buton">
+  <button href="#" class="btn">Connexion</button>
+  <button href="#" class="btn1">Inscription</button>
+  </div>
+</div>
+</nav>
+</div>
 </header>
 
-<div id="menu" class="menu-overlay">
-  <div class="menu-content">
-    <button class="close-btn">&times;</button>
-    <ul class="menu-list">
-      <li id="menu-vehicles">Véhicules</li>
-      <li id="menu-energy">Énergie</li>
-      <li>Recharge</li>
-      <li>Découvrir</li>
-      <li>Shop</li>
-      <li>Assistance</li>
-      <li>France</li>
-      <li>français</li>
-      <li>Compte</li>
-    </ul>
-  </div>
+<section class="hero">
+<div class="container">
+
+<span class="section-tag">CWE</span>
+
+<h1>
+Configurer et Gérez vos
+<span>workflow</span>
+avec agilité et transparence
+</h1>
+
+<button href="#" class="btn">Commencer</button>
+<button href="#" class="btn1">Demander une démo</button>
+
+<div class="hero-image">
+<img src="./image/HEOR1.png" alt="">
 </div>
 
-<div id="submenu-vehicles" class="submenu-overlay">
-  <div class="submenu-content">
-    <button class="back-btn">&lt;</button>
-    <button class="close-btn">&times;</button>
-    <div class="vehicles-grid">
-      <div class="vehicle-item">
-        <img src="./image/Mega-Menu-Vehicles-Model-3-Performance-LHD.avif" alt="Model 3">
-        <h3>Model 3</h3>
-        <div class="vehicle-links">
-          <a href="#">Commander</a>
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-      <div class="vehicle-item">
-        <img src="./image/Mega-Menu-Vehicles-Model-Y-2-v2.avif" alt="Model Y">
-        <h3>Model Y</h3>
-        <div class="vehicle-links">
-          <a href="#">Commander</a>
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-      <div class="vehicle-item">
-        <img src="./image/Mega-Menu-Vehicles-Model-S-1.avif" alt="Model S">
-        <h3>Model S</h3>
-        <div class="vehicle-links">
-          <a href="#">Commander</a>
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-      <div class="vehicle-item">
-        <img src="./image/Mega-Menu-Vehicles-Model-X-EMEA.avif" alt="Model X">
-        <h3>Model X</h3>
-        <div class="vehicle-links">
-          <a href="#">Commander</a>
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-      <div class="vehicle-item">
-        <img src="./image/Mega-Menu-Vehicles-Cybertruck-1x.avif" alt="Cybertruck">
-        <h3>Cybertruck</h3>
-        <div class="vehicle-links">
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-
-<div id="submenu-energy" class="submenu-overlay">
-  <div class="submenu-content">
-    <button class="back-btn">&lt;</button>
-    <button class="close-btn">&times;</button>
-    <div class="energy-grid">
-      <div class="energy-item">
-        <img src="./image/Mega-Menu-Energy-Powerwall-3-EMEA.avif" alt="Powerwall">
-        <h3>Powerwall</h3>
-        <div class="vehicle-links">
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-      <div class="energy-item">
-        <img src="./image/Mega-Menu-Energy-Megapack.avif" alt="Megapack">
-        <h3>Megapack</h3>
-        <div class="vehicle-links">
-          <a href="#">Découvrir</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<section class="carousel auto-carousel">
-  <div class="slides">
-
-    <div class="slide active">
-      <img src="./image/image1.avif">
-      <div class="overlay top">
-        <h1>Model 3</h1>
-        <div class="contenue1">
-        <button class="btn-blue">Commander</button>
-        <button class="btn-white">Découvrir</button>
-        </div>
-      </div>
-      <div class="overlay bottom">
-      <div class="overlay middle auto-dots"></div>
-      </div>
-    </div>
-
-    <div class="slide">
-      <img src="./image/image2.jpg">
-      <div class="overlay top">
-        <h1>Découvrez le Model Y</h1>
-        <div class="contenue1">
-        <button class="btn-blue">Commander</button>
-        <button class="btn-white">Découvrir</button>
-        </div>
-      </div>
-      <div class="overlay bottom">
-      <div class="overlay middle auto-dots"></div>
-      </div>
-    </div>
-
-  </div>
 </section>
 
-<div class="MH">
-    <section class="manual-carousel">
-  <div class="manual-viewport">
-    <div class="manual-track">
-      <article class="manual-slide">
-        <img src="./image/image3.avif">
-        <div class="Descript">
-            <h5>Nouveau SUV de taille intermédiaire</h5>
-            <div class="contenue">
-            <h2>Model Y Standard</h2>
-            <P>À partir de 40 001 €</P>
-            <div class="contenue1">
-        <button class="btn-blue">Commander</button>
-        <button class="btn-white">En savoir plus</button>
-              </div>
-        </div>
-      </article>
-      <article class="manual-slide">
-        <img src="./image/image4.avif">
-         <div class="Descript">
-            <h5>Berline sportive</h5>
-            <div class="contenue">
-            <h2>Model 3</h2>
-            <P>À partir de 37 001 €</P>
-            <div class="contenue1">
-        <button class="btn-blue">Commander</button>
-        <button class="btn-white">En savoir plus</button>
-              </div>
-        </div>
-      </article>
-
-      <article class="manual-slide">
-        <img src="./image/image5.avif">
-         <div class="Descript">
-            <h5>SUV de taille intermédiaire</h5>
-            <div class="contenue">
-            <h2>Model Y</h2>
-            <P>À partir de 47 001 €</P>
-            <div class="contenue1">
-        <button class="btn-blue">Commander</button>
-        <button class="btn-white">En savoir plus</button>
-            </div>
-        </div>
-      </article>
-      <article class="manual-slide">
-        <img src="./image/image6.avif">
-         <div class="Descript">
-            <h5>Berline de luxe</h5>
-            <div class="contenue">
-            <h2>Model S</h2>
-            <P>Disponible avec la Supercharge et la Connexion Premium gratuites et illimitées<sup>1</sup></P>
-        <div class="contenue1">
-            <button class="btn-blue">Commander</button>
-            <button class="btn-white">En savoir plus</button>
-            </div>
-            </div>
-        </div>
-      </article>
-      <article class="manual-slide">
-        <img src="./image/image7.avif">
-         <div class="Descript">
-            <h5>SUV de luxe</h5>
-            <div class="contenue">
-            <h2>Model X</h2>
-            <P>Disponible avec la Supercharge et la Connexion Premium gratuites et illimitées <sup>1</sup></P>
-        <div class="contenue1">
-            <button class="btn-blue">Commander</button>
-        <button class="btn-white">En savoir plus</button>
-            </div>
-            </div>
-        </div>
-      </article>
-    </div>
-
-  <div class="manual-dots"></div>
+<section class="partners">
+  <a href="#" class="partner-item" aria-label="Logo 1">
+    <img src="./image/LOGO1.png" alt="Logo 1">
+  </a>
+  <a href="#" class="partner-item" aria-label="Logo 2">
+    <img src="./image/LOGO2.png" alt="Logo 2">
+  </a>
+  <a href="#" class="partner-item" aria-label="Logo 3">
+    <img src="./image/LOGO3.png" alt="Logo 3">
+  </a>
+  <a href="#" class="partner-item" aria-label="Logo 4">
+    <img src="./image/LOGO4.png" alt="Logo 4">
+  </a>
+  <a href="#" class="partner-item" aria-label="Logo 5">
+    <img src="./image/LOGO5.png" alt="Logo 5">
+  </a>
 </section>
-<div class="Exemp">
-    <div class="Exemp1">
-    <h2>Véhicules disponibles</h2>
-    <P>Trouvez des véhicules Tesla neufs et d'occasion certifiée <br>disponibles immédiatement.</P>
-    <button class="btn1">Véhicule disponibles</button>
+
+<section class="workflow">
+  <div class="container">
+    <div class="workflow-grid">
+      <div class="workflow-left">
+        <div class="workflow-copy">
+          <h2>C'est quoi un workflow ?</h2>
+          <p>
+            Un workflow est une suite d'étapes permettant
+            d'automatiser les processus métier et améliorer
+            la productivité.
+          </p>
+        </div>
+        <div class="workflow-secondary-image">
+          <img src="./image/workflow2.png" alt="Deuxième illustration workflow">
+        </div>
+      </div>
+
+      <div class="workflow-right">
+        <div class="workflow-main-image">
+          <img src="./image/workflow1.png" alt="Illustration workflow principale">
+        </div>
+      </div>
     </div>
-    <div class="Exemp1">
-    <h2>Reprise</h2>
-    <P>Faites reprendre votre véhicule actuel contre un véhicule <br>Tesla neuf.</P>
-    <button class="btn1">Obtenir une estimation</button>
+  </div>
+</section>
+<section class="features">
+
+    <div class="container">
+
+        <div class="features-grid">
+
+            <div class="features-content">
+
+                <span class="section-tag">
+                    Nos fonctionnalités principales
+                </span>
+
+                <h2>
+                  Configurer et gérer des workflow simplement
+                </h2>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <div class="icon"><img src="./image/icone1.png" alt="Création et Gestion"></div>
+
+                        <h3>Création et Gestion</h3>
+
+                        <p>
+                            Gain a competitive edge with our intuitive workflow
+                            builder and powerful management tools.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon"><img src="./image/icone2.png" alt="Validation et suivi"></div>
+
+                        <h3>Validation et suivi</h3>
+
+                        <p>
+                            Enhance your website's visibility and drive targeted traffic
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon"><img src="./image/icone3.png" alt="Actions et Transitions"></div>
+
+                        <h3>Actions et Transitions</h3>
+
+                        <p>
+                            Xperience the stellar difference and unlock the true potential
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon"><img src="./image/icone4.png" alt="Multi utilisateurs"></div>
+
+                        <h3>Multi utilisateurs</h3>
+
+                        <p>
+                            From content creation and deployment to performance
+                          </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="feature-gris">
+
+            </div>
+
+        </div>
+
     </div>
+
+</section>
+<div class="spacer"></div>
+
+<section class="pricing">
+
+<div class="container">
+
+<h2>Une tarification simple <span>pour tout type de business</span></h2>
+
+<p class="pricing-subtitle">Des bon prix pour tout type de business.</p>
+
+<div class="pricing-switch">
+<button class="active-btn" type="button">Mensuel</button>
+<button type="button">Annuel</button>
 </div>
 
-<div class="trajet">
-  <img src="./image/image10.avif" alt="" >
-        <div class="contenue">
-          <h2>Full Self-Driving (Supervised)²</h2>
-          <br>
-          <div class="contenue1">
-             <button class="btn-blue">Réserver un essaie en passager</button>
-             <button class="btn-white">En savoir plus</button>
-          </div>
-        </div>
+<div class="pricing-cards">
+
+<div class="price-card">
+<div class="price-card-head">
+<span class="plan-icon"><img src="./image/TORTUE.png" alt="Logo tortue" class="plan-icon-img"></span>
 </div>
-<div class="manual-prod">
-  <div class="manual_vers">
- <article class="active-slide">
-        <img src="./image/image15.avif">
-         <div class="Descript">
-            <div class="contenue">
-            <h2>Powerwall</h2>
-            <P>Ne laissez plus les coupures de courant vous plonger dans le noir</P>
-       <div class="contenue1">
-            <button class="btn-blue">Demander un devis</button>
-        <button class="btn-white">En savoir plus</button>
-        </div>
-            </div>
-        </div>
-      </article>
- <article class="active-slide">
-        <img src="./image/image16.avif">
-         <div class="Descript">
-            <div class="contenue">
-            <h2>Megapack</h2>
-            <P>Des batteries puissantes pour un soutien énergétique maximal</P>
-        <button class="btn-blue">En savoir plus</button>
-            </div>
-        </div>
-      </article>
+<p class="plan-kicker">bon pour tester</p>
+<h3>Gratuit</h3>
+<p class="plan-note">Parfait pour tester la puissance de l'outil</p>
+<button class="plan-btn" type="button">Commencer</button>
+<ul>
+<li><i class="fa-regular fa-rectangle-list"></i> 3 Workflow</li>
+<li><i class="fa-regular fa-user"></i> 5 Membres</li>
+<li><i class="fa-regular fa-hourglass-half"></i> Configuration basics</li>
+</ul>
 </div>
-<div class="manual-dots1"></div>
-  </div>
+
+<div class="price-card highlight">
+<div class="price-card-head">
+<span class="plan-icon"><img src="./image/KONOHA.png" alt="Logo Konoha" class="plan-icon-img"></span>
+<span class="popular-badge">Populaire</span>
 </div>
-<div class="Fin">
-  <p><sup>1</sup> La Supercharge et la Connexion Premium gratuites et illimitées sont uniquement valables pour les nouvelles commandes de Model S et de Model X 
-    <br> personnalisés et préconfigurés passées après le 6 février 2025. Cette offre peut être cumulée avec d'autres offres
-    <br> de financement. Cette offre s'applique aux véhicules d'essai et aux véhicules d'exposition. Les véhicules d'occasion certifiés sont exclus de cette offre. Cette offre est valable 
-    <br> pendant une durée limitée et peut être annulée à tout moment. Tesla ne garantit pas la disponibilité du véhicule avant la fin de l'offre. L'offre de 
-    <br> Supercharge et de Connexion Premium gratuites est liée au VIN du véhicule et au premier conducteur qui prend livraison. La Supercharge et la
-    <br> Connexion Premium gratuites ne peuvent pas être transférées à un tiers en cas de transfert de propriété, ni à un autre véhicule. La Supercharge 
-    <br> gratuite ne peut être échangée que directement auprès des Superchargeurs détenus par Tesla. Le nom du conducteur qui prendra livraison doit figurer 
-    <br> sur les commandes d'entreprise afin que celui-ci puisse bénéficier de l'offre. La Supercharge et la Connexion Premium gratuites ne peuvent pas être 
-    <br> transférées, ni remboursées, ni échangées contre des crédits ou de l'argent.Les personnes bénéficiant de cette offre restent soumises aux « frais de 
-    <br> congestion » ou aux taxes ainsi qu'à la <a href="#">Supercharger Fair Use Policy.</a>
-  </p><br><br>
-<p> <sup>2</sup> Conduite entièrement autonome (sous surveillance). Cette option n'est actuellement pas disponible en France et diffère de la Conduite automatique 
-<br> (supervisée), dont vous pouvez déjà bénéficier.</p>
+<p class="plan-kicker">Pour les Business</p>
+<h3><span class="price">$12</span><span class="price-period">/mois</span></h3>
+<p class="plan-note">Pour les petites équipes</p>
+<button class="plan-btn featured" type="button">Commencer</button>
+<ul>
+<li><i class="fa-regular fa-rectangle-list"></i> Workflow illimités</li>
+<li><i class="fa-regular fa-user"></i> 25 Membres</li>
+<li><i class="fa-regular fa-hourglass-half"></i> Gantt & Timeline Views</li>
+<li><i class="fa-regular fa-circle-check"></i> Permissions et rôles avancés</li>
+<li><i class="fa-regular fa-envelope"></i> Email & Support par chat</li>
+</ul>
 </div>
-<div class="jk1">
-<div class="jk">
-  <img src="./image/energyEtiquette-(3) (1).png" alt="">
- 
+
+<div class="price-card">
+<div class="price-card-head">
+<span class="plan-icon"><img src="./image/BUILDING.png" alt="Logo building" class="plan-icon-img"></span>
 </div>
- <p>Pensez à covoiturer #SeDéplacerMoinsPolluer</p>
+<p class="plan-kicker">Pour grande entreprise</p>
+<h3>Prix sur mesure</h3>
+<p class="plan-note">Parfait pour les grosses entreprises</p>
+<button class="plan-btn" type="button">Nous contacter</button>
+<ul>
+<li><i class="fa-regular fa-rectangle-list"></i> Unlimited Team Members</li>
+<li><i class="fa-regular fa-user"></i> Membres illimités</li>
+<li><i class="fa-regular fa-hourglass-half"></i> Configurations avancées</li>
+<li><i class="fa-regular fa-circle-check"></i> Permissions et rôles avancées</li>
+<li><i class="fa-regular fa-building"></i> Intégrations</li>
+<li><i class="fa-regular fa-envelope"></i> Support prioritaires</li>
+</ul>
 </div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="testimonials">
+
+<div class="container">
+
+<h2>Ce que nos utilisateurs disent</h2>
+<p>Réjoignez notre panoplie d'utilisateur et découvrez la puissance de la plateforme de configuration workflow</p>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-column testimonial-column-left">
+
+<div class="testimonial testimonial-large">
+<p>
+"Nous utilisons configurable workflow engine pour gérer tous nos workflow en interne et c'est une pépite que je recommande vivement"
+</p>
+<div class="user">
+<img src="./image/USER.png" alt="Likeur off">
+<div>
+<h4>Likeur off</h4>
+<p>CEO BGFIBank</p>
+</div>
+</div>
+</div>
+
+<div class="testimonial testimonial-medium testimonial-bottom-left testimonial-third">
+<p>
+"Nous utilisons configurable workflow engine pour gérer tous nos workflow en interne et c'est une pépite que je recommande vivement"
+</p>
+<div class="user">
+<img src="./image/USER.png" alt="Likeur off">
+<div>
+<h4>Likeur off</h4>
+<p>CEO BGFIBank</p>
+</div>
+</div>
+</div>
+
+ </div>
+
+<div class="testimonial-column testimonial-column-right">
+
+<div class="testimonial testimonial-medium testimonial-top-right">
+<p>
+"Nous utilisons configurable workflow engine pour gérer tous nos workflow en interne et c'est une pépite que je recommande vivement"
+</p>
+<div class="user">
+<img src="./image/USER.png" alt="Likeur off">
+<div>
+<h4>Likeur off</h4>
+<p>CEO BGFIBank</p>
+</div>
+</div>
+</div>
+
+<div class="testimonial testimonial-small testimonial-bottom-right testimonial-fourth">
+<p>
+"Nous utilisons configurable workflow engine pour gérer tous nos workflow en interne et c'est une pépite que je recommande vivement"
+</p>
+<div class="user">
+<img src="./image/USER.png" alt="Likeur off">
+<div>
+<h4>Likeur off</h4>
+<p>CEO BGFIBank</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<div class="container">
+
+<h2>FAQ</h2>
+
+<div class="faq-item">
+<div class="question">
+Comment créer un workflow ?
+<span class="faq-toggle" aria-hidden="true">˅</span>
+</div>
+<div class="answer">
+Vous pouvez créer un workflow en utilisant notre interface intuitive de glisser-déposer. Il suffit de sélectionner les étapes, les actions et les transitions pour configurer votre processus métier.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="question">
+Comment je peux faire un paiement ?
+<span class="faq-toggle" aria-hidden="true">˅</span>
+</div>
+<div class="answer">
+Vous pouvez effectuer un paiement par carte bancaire ou mobile money.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="question">
+Combien de membres puis-je ajouter ?
+<span class="faq-toggle" aria-hidden="true">˅</span>
+</div>
+<div class="answer">
+Selon votre formule d'abonnement.
+</div>
+</div>
+
+</div>
+
+</section>
+
 <footer>
-  <a href="#">Tesla © 2026</a>
-  <a href="">Mentions légales</a>
-  <a href="">Contact</a>
-  <a href="">Actualités</a>
-  <a href="">Recevoir nos actualités</a>
-  <a href="">Localisations</a>
-  <a href="">Découvrir</a>
-</footer>
-<div class="b-nav">
-  <button class="but">Réserver un essai</button>
+
+<div class="container">
+
+<div class="footer-shell">
+
+<div class="footer-left">
+<img src="./image/LOGO_BT.png" alt="Workflow" class="footer-logo">
+<p>
+Moteur de workflow configurable,<br>
+vous facilite la tâche dans la<br>
+gestion de vos process.
+</p>
+
+<div class="footer-social">
+<a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
+</div>
+
+<div class="footer-links">
+<div class="footer-col">
+<h4>Compagnie</h4>
+<ul>
+<li><a href="#">A propos de nous</a></li>
+<li><a href="#">Nos produits</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h4>Produit</h4>
+<ul>
+<li><a href="#">Fonctionnalités</a></li>
+<li><a href="#">Tarification</a></li>
+<li><a href="#">Demo</a></li>
+<li><a href="#">Documentation</a></li>
+<li><a href="#">Support</a></li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h4>Legal</h4>
+<ul>
+<li><a href="#">Politique de confidentialité</a></li>
+<li><a href="#">Mentions légales</a></li>
+<li><a href="#">Termes et conditions</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
 <script src="./js/script.js"></script>
 </body>
 </html>
